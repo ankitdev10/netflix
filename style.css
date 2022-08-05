@@ -1,32 +1,32 @@
-body{  
+body {
     margin: 0;
     padding: 0;
     color: white;
     font-family: sans-serif;
-     
+
 }
 
-.cover{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(bg.jpg);
+.cover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(bg.jpg);
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     height: 800px;
 }
 
-.heading{
+.heading {
     display: flex;
     flex-direction: row;
     margin-top: -30x;
 }
 
 
-.logo{
+.logo {
     width: 222px;
     margin-left: 20px
 }
 
 
-.btn{
+.btn {
     margin-left: 1150px;
     height: 30px;
     width: 85px;
@@ -37,39 +37,39 @@ body{
     color: white;
     font-size: 16px;
     padding: 5px;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
-.membership{
+.membership {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
     text-align: center;
-    
+
 }
 
-.membership h1{
+.membership h1 {
     font-size: 4rem;
 }
 
-.membership h2{
+.membership h2 {
     font-size: 3 rem;
     margin-top: -30px;
 }
 
-.membership h3{
+.membership h3 {
     font-size: 1.2 rem;
     margin-top: 35px;
 }
 
-.loginbox{
+.loginbox {
     display: flex;
 }
 
-.loginbox input{
+.loginbox input {
     width: 503px;
-    height:70px;
+    height: 70px;
     margin-left: -100px;
     margin-top: 25px;
     border-radius: 2px;
@@ -85,9 +85,10 @@ body{
     color: white;
     background-color: rgb(224, 34, 34);
     border: 0px solid red;
+    cursor: pointer;
 }
 
-.loginbox .getstarted button:hover{
+.loginbox .getstarted button:hover {
     background-color: rgb(214, 28, 28);
 }
 
@@ -95,12 +96,12 @@ body{
 /* now desiging information section */
 
 
-.infosection{
+.infosection {
     margin-top: 0px;
     background-color: black;
 }
 
- hr{
+hr {
     border: 5px solid grey;
     border-radius: 5px;
     background-color: grey;
@@ -110,8 +111,8 @@ body{
 
 
 
-.info{
-    
+.info {
+
     margin: 0px;
     display: flex;
     flex-direction: row;
@@ -121,22 +122,22 @@ body{
 }
 
 
-.tv-picture img{
+.tv-picture img {
     width: 400px;
     margin-top: 150px;
     margin-left: 100px;
 }
 
-.tv-info h1{
+.tv-info h1 {
     font-size: 3rem;
     margin-top: 100px;
 }
 
-.tv-info h3{
+.tv-info h3 {
     font-size: 1.5rem;
 }
 
-.offline-info{
+.offline-info {
     margin-top: 50px;
     display: flex;
     flex-direction: row;
@@ -149,45 +150,45 @@ body{
     margin-left: -100px;
 }
 
-.off-text{
+.off-text {
     margin-top: 50px;
     margin-left: 100px;
 }
 
-.off-text h1{
+.off-text h1 {
     font-size: 3rem;
 }
 
-.off-text h3{
+.off-text h3 {
     font-size: 1.5rem;
 }
 
-.kids-info{
+.kids-info {
     display: flex;
     justify-content: center;
     margin-top: 100px;
     margin-bottom: 30px;
 }
 
-.kids-img img{
+.kids-img img {
     width: 500px;
 }
 
-.kids-text{
+.kids-text {
     margin-top: 50px;
     margin-left: 50px;
     width: 500px;
 }
 
-.kids-text h1{
+.kids-text h1 {
     font-size: 3rem;
 }
 
-.kids-text h3{
+.kids-text h3 {
     font-size: 1.5rem;
 }
 
-.faq{
+.faq {
     margin-top: 50px;
     display: flex;
     align-items: center;
@@ -195,11 +196,11 @@ body{
     flex-direction: column;
 }
 
-.faq-title{
+.faq-title {
     font-size: 2rem;
 }
 
-.question{
+.question {
     /* border: 1px solid #3030;
     background-color: #3030; */
     border: 1px solid grey;
@@ -207,25 +208,26 @@ body{
     margin-top: 10px;
     width: 700px;
     height: 75px;
+    cursor: pointer;
 }
 
-.question h2{
+.question h2 {
     margin-top: 20px;
     margin-left: 10px;
     display: inline-block;
     font-weight: 200;
-    cursor: pointer;
     
 }
 
-.question h3{
+.question h3 {
     display: inline;
     position: absolute;
     left: 1071px;
-    cursor: pointer;
+    
 }
 
-.watch-online{
+
+.watch-online {
     margin-top: 50px;
     display: flex;
     align-items: center;
@@ -233,13 +235,13 @@ body{
     flex-direction: row;
 }
 
-.watch-online h3{
+.watch-online h3 {
     text-align: center;
 }
 
-.loginbox1 input{
+.loginbox1 input {
     width: 503px;
-    height:70px;
+    height: 70px;
     margin-left: 400px;
     margin-top: 25px;
     border-radius: 2px;
@@ -247,7 +249,7 @@ body{
     font-size: 15px;
 }
 
-.getstarted1 button{
+.getstarted1 button {
     width: 250px;
     height: 82px;
     font-size: 1.5rem;
@@ -256,9 +258,10 @@ body{
     border: 0px solid red;
     margin-left: 914px;
     position: relative;
-    top: -81px;   
+    top: -81px;
+    cursor: pointer;
 }
 
-.getstarted1 button:hover{
+.getstarted1 button:hover {
     background-color: rgb(214, 28, 28);
 }
