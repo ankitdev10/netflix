@@ -1,0 +1,262 @@
+body{  
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: sans-serif;
+     
+}
+
+.cover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 800px;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    margin-top: -30x;
+}
+
+
+.logo{
+    width: 222px;
+    margin-left: 20px
+}
+
+
+.btn{
+    margin-left: 1150px;
+    height: 30px;
+    width: 85px;
+    margin-top: 40px;
+    border: 1px solid red;
+    background-color: rgb(242, 13, 13);
+    border-radius: 2px;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+    cursor: pointer; 
+}
+
+.membership{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+.membership h1{
+    font-size: 4rem;
+}
+
+.membership h2{
+    font-size: 3 rem;
+    margin-top: -30px;
+}
+
+.membership h3{
+    font-size: 1.2 rem;
+    margin-top: 35px;
+}
+
+.loginbox{
+    display: flex;
+}
+
+.loginbox input{
+    width: 503px;
+    height:70px;
+    margin-left: -100px;
+    margin-top: 25px;
+    border-radius: 2px;
+    padding: 4px;
+    font-size: 15px;
+}
+
+.loginbox .getstarted button {
+    width: 250px;
+    height: 82px;
+    margin-top: 25px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(224, 34, 34);
+    border: 0px solid red;
+}
+
+.loginbox .getstarted button:hover{
+    background-color: rgb(214, 28, 28);
+}
+
+
+/* now desiging information section */
+
+
+.infosection{
+    margin-top: 0px;
+    background-color: black;
+}
+
+ hr{
+    border: 5px solid grey;
+    border-radius: 5px;
+    background-color: grey;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+.info{
+    
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+.tv-picture img{
+    width: 400px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.tv-info h1{
+    font-size: 3rem;
+    margin-top: 100px;
+}
+
+.tv-info h3{
+    font-size: 1.5rem;
+}
+
+.offline-info{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.off-img img {
+    width: 400px;
+    margin-left: -100px;
+}
+
+.off-text{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.off-text h1{
+    font-size: 3rem;
+}
+
+.off-text h3{
+    font-size: 1.5rem;
+}
+
+.kids-info{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.kids-img img{
+    width: 500px;
+}
+
+.kids-text{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 500px;
+}
+
+.kids-text h1{
+    font-size: 3rem;
+}
+
+.kids-text h3{
+    font-size: 1.5rem;
+}
+
+.faq{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.faq-title{
+    font-size: 2rem;
+}
+
+.question{
+    /* border: 1px solid #3030;
+    background-color: #3030; */
+    border: 1px solid grey;
+    background-color: #303030;
+    margin-top: 10px;
+    width: 700px;
+    height: 75px;
+}
+
+.question h2{
+    margin-top: 20px;
+    margin-left: 10px;
+    display: inline-block;
+    font-weight: 200;
+    
+}
+
+.question h3{
+    display: inline;
+    position: absolute;
+    left: 1071px;
+}
+
+.watch-online{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.watch-online h3{
+    text-align: center;
+}
+
+.loginbox1 input{
+    width: 503px;
+    height:70px;
+    margin-left: 400px;
+    margin-top: 25px;
+    border-radius: 2px;
+    padding: 4px;
+    font-size: 15px;
+}
+
+.getstarted1 button{
+    width: 250px;
+    height: 82px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(224, 34, 34);
+    border: 0px solid red;
+    margin-left: 914px;
+    position: relative;
+    top: -81px;   
+}
+
+.getstarted1 button:hover{
+    background-color: rgb(214, 28, 28);
+}
